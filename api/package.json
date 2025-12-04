@@ -1,0 +1,18 @@
+{
+  "name": "vercel-serverless-expense-api",
+  "version": "1.0.0",
+  "description": "A Vercel-compatible serverless expense API with a functional HTML interface.",
+  "main": "api/expenses.js",
+  "type": "module",
+  "scripts": {
+    "start": "echo 'Run: vercel dev' "
+  },
+  "keywords": [
+    "vercel",
+    "serverless",
+    "api",
+    "nodejs"
+  ],
+  "author": "Revised by Gemini",
+  "license": "ISC"
+}
