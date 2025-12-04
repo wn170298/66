@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "functions": {
+    "api/expenses.js": {
+      "runtime": "nodejs18.x",
+      "memory": 128,
+      "maxDuration": 10
+    }
+  },
+  "routes": [
+    // Route 1: Guarantees index.html is served at the root URL (e.g., /)
+    {
+      "src": "/",
+      "dest": "index.html"
+    },
+    // Route 2: Maps the public endpoint /api/expenses to the serverless function file
+    {
+      "src": "/api/expenses",
+      "dest": "/api/expenses.js"
+    }
+  ]
+}
